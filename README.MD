@@ -37,6 +37,7 @@ As i say, this is just a MVP version. There are still many features to be done.
 ## Architecture
 ![img.png](assert/arch.png)
 ## Code Structure
+```angular2html
 AmazonOrderFetcher/  
 │  
 ├── assert/ # image resource  
@@ -44,7 +45,7 @@ AmazonOrderFetcher/
 │   ├── img.png  
 │   ├── storage.png  
 │  
-├── models/
+├── models/  
 │   ├── order.py # order model, extract model info   
 │  
 ├── service/ # core biz logic  
@@ -60,3 +61,5 @@ AmazonOrderFetcher/
 │  
 ├── main.py  
 ├── README.md   
+
+```
